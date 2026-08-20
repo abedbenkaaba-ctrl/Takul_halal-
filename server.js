@@ -11,7 +11,7 @@ app.use(express.json());
 const server = http.createServer(app);
 const io = new Server(server, { cors: { origin: "*" } });
 
-const db = new Database("takul.db");
+const db = new Database("/app/data/takul.db");
 db.exec(`
   CREATE TABLE IF NOT EXISTS restaurants (
     id TEXT PRIMARY KEY, city TEXT, name TEXT, cuisine TEXT, active INTEGER DEFAULT 1
