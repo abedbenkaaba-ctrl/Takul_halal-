@@ -1,0 +1,15 @@
+{
+  "name": "TA'KUL HALAL — Client",
+  "short_name": "TA'KUL Client",
+  "description": "Commandez vos plats halal préférés",
+  "start_url": "./takul-client.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F7F5EF",
+  "theme_color": "#0B3D2E",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
