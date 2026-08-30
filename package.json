@@ -1,0 +1,15 @@
+{
+  "name": "nakul-halal-backend",
+  "version": "1.0.0",
+  "description": "Backend NA'KUL HALAL - API et temps reel pour les apps Client, Restaurant, Livreur",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "socket.io": "^4.7.5",
+    "better-sqlite3": "^11.3.0"
+  }
+}
