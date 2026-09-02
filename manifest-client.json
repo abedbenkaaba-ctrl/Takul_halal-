@@ -1,0 +1,16 @@
+{
+  "id": "/nakul-halal/nakul-client.html",
+  "name": "NA'KUL HALAL — Client",
+  "short_name": "NA'KUL Client",
+  "description": "Commandez vos plats halal préférés",
+  "start_url": "./nakul-client.html",
+  "scope": "./nakul-client.html",
+  "display": "standalone",
+  "background_color": "#F7F5EF",
+  "theme_color": "#0B3D2E",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "icon-192-client.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512-client.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
